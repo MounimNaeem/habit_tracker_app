@@ -18,7 +18,7 @@ class TopProgressCard extends StatelessWidget {
         (totalHabits == 0) ? 0 : (completedHabits / totalHabits) * 100;
     final textTheme = Theme.of(context).textTheme;
     return Container(
-      height: 193.h,
+      height: 200.h,
       width: double.infinity,
       margin: EdgeInsets.symmetric(horizontal: 12.w),
       decoration: BoxDecoration(
